@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'SansationRegular';
+  src: url('SansationRegular.woff') format('woff'),
+       url('SansationRegular.ttf') format('truetype'),
+       url('SansationRegular.svg#SansationRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Sansation_Regular';
+  src: url('Sansation_Regular.eot');
+  src: url('Sansation_Regular.woff2') format('woff2'),
+       url('Sansation_Regular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

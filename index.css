@@ -1,0 +1,148 @@
+* {
+padding:0;
+margin:0;
+}
+
+@font-face {
+  font-family: 'Sansation_Regular';
+  src: url('fonts/SansationRegular.woff') format('woff'),
+       url('fonts/SansationRegular.ttf') format('truetype'),
+       url('fonts/SansationRegular.svg#SansationRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Sansation_Bold';
+  src: url('fonts/SansationBold.woff') format('woff'),
+       url('fonts/SansationBold.ttf') format('truetype'),
+       url('fonts/SansationBold.svg#SansationBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Sansation_Light';
+  src: url('fonts/SansationLight.woff') format('woff'),
+       url('fonts/SansationLight.ttf') format('truetype'),
+       url('fonts/SansationLight.svg#SansationLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+body {
+background:#C7D3DC;
+}
+
+#wrapper {
+width:940px;
+margin:0 auto;
+overflow:hidden; 
+background:#90AFC5;
+}
+
+#banner {
+width:940px;
+margin:0 auto;
+}
+
+nav{
+margin-top:1em;
+background:#336B87;
+height:50px;
+line-height:50px;
+}
+
+nav ul {
+margin: 0 auto;
+}
+
+nav li {
+float:left;
+list-style-type:none;
+width:20%;
+text-align:center;
+line-height:50px;
+font-family:'Sansation_Bold';
+font-size:75%;
+}
+
+nav a {
+text-decoration:none;
+display:block;
+color:#2A3132;
+}
+
+nav a:hover {
+background:#2A3132;
+color:white;
+line-height:50px;
+}
+
+header {
+margin-top:1em;
+margin-bottom:1em;
+}
+
+h1 {
+font-family:'Sansation_Bold';
+text-align:center;
+font-weight:bold;
+font-size:42px;
+margin-top:2em;
+}
+
+main {
+width:550px;
+height:600px;
+float:left; 
+margin-left:1.5em;
+}
+
+aside {
+width:320px;
+height:600px;
+float:left;
+margin-left:1.5em;
+}
+
+h1 {
+font-family:'Sansation_Bold';
+text-align:center;
+font-weight:bold;
+font-size:42px;
+margin-top:2em;
+color:#2A3132
+}
+
+
+footer{
+height:50px;
+line-height:50px;
+clear:both;
+margin:30px 0 30px 0; 
+border-top-width: 2px;
+border-top-style: solid;
+border-top-color:#2A3132;
+color:#2A3132;
+}
+
+footer li	{
+float:left;
+list-style-type:none;
+width:33%;
+font-family:'Sansation_Bold';
+}
+
+footer ul	{
+margin:0 auto;
+width:60%;
+}
+
